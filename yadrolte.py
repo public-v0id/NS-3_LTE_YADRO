@@ -27,5 +27,5 @@ dl = dataFromFile("DlRlcStats.txt")
 ul = dataFromFile("UlRlcStats.txt")
 for k in dl:
     print("UE " + k + ":")
-    print("\tDL: " + str(dl[k]))
-    print("\tUL: " + str(ul[k]))
+    print("\tDL: " + str(dl[k]) + " bits per second")
+    print("\tUL: " + str(ul[k]) + " bits per second")
